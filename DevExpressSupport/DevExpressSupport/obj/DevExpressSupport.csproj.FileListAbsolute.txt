@@ -1,0 +1,30 @@
+C:\Users\khanh\Documents\Visual Studio 2005\Projects\DevExpressSupport\DevExpressSupport\bin\Debug\DevExpressSupport.exe
+C:\Users\khanh\Documents\Visual Studio 2005\Projects\DevExpressSupport\DevExpressSupport\bin\Debug\DevExpressSupport.pdb
+C:\Users\khanh\Documents\Visual Studio 2005\Projects\DevExpressSupport\DevExpressSupport\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\khanh\Documents\Visual Studio 2005\Projects\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.Form1.resources
+C:\Users\khanh\Documents\Visual Studio 2005\Projects\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.Properties.Resources.resources
+C:\Users\khanh\Documents\Visual Studio 2005\Projects\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.csproj.GenerateResource.Cache
+C:\Users\khanh\Documents\Visual Studio 2005\Projects\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.exe.licenses
+C:\Users\khanh\Documents\Visual Studio 2005\Projects\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.exe
+C:\Users\khanh\Documents\Visual Studio 2005\Projects\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.pdb
+D:\Project\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.exe
+D:\Project\DevExpressSupport\DevExpressSupport\bin\Debug\DevExpressSupport.exe
+D:\Project\DevExpressSupport\DevExpressSupport\bin\Debug\DevExpressSupport.pdb
+D:\Project\DevExpressSupport\DevExpressSupport\bin\Debug\SerializationHelper.dll
+D:\Project\DevExpressSupport\DevExpressSupport\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.Form1.resources
+D:\Project\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.Properties.Resources.resources
+D:\Project\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.csproj.GenerateResource.Cache
+D:\Project\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.exe.licenses
+D:\Project\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.pdb
+D:\Khanh\LibraryManagement\DevExpressSupport\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.exe
+D:\Khanh\LibraryManagement\DevExpressSupport\DevExpressSupport\DevExpressSupport\bin\Debug\DevExpressSupport.exe
+D:\Khanh\LibraryManagement\DevExpressSupport\DevExpressSupport\DevExpressSupport\bin\Debug\DevExpressSupport.pdb
+D:\Khanh\LibraryManagement\DevExpressSupport\DevExpressSupport\DevExpressSupport\bin\Debug\SerializationHelper.dll
+D:\Khanh\LibraryManagement\DevExpressSupport\DevExpressSupport\DevExpressSupport\obj\Debug\ResolveAssemblyReference.cache
+D:\Khanh\LibraryManagement\DevExpressSupport\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.ReplaceForm.resources
+D:\Khanh\LibraryManagement\DevExpressSupport\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.Properties.Resources.resources
+D:\Khanh\LibraryManagement\DevExpressSupport\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.csproj.GenerateResource.Cache
+D:\Khanh\LibraryManagement\DevExpressSupport\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.exe.licenses
+D:\Khanh\LibraryManagement\DevExpressSupport\DevExpressSupport\DevExpressSupport\obj\Debug\DevExpressSupport.pdb
+D:\Khanh\LibraryManagement\DevExpressSupport\DevExpressSupport\DevExpressSupport\bin\Debug\Replace.txt
