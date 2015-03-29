@@ -20,7 +20,7 @@ namespace DevExpressSupport
             //lstReplaces.Add(rd);
 
 
-            //SerializationHelper.SerializeHelper.WriteObjectToXML(".\\Replace.txt", lstReplaces);
+            //SerializationHelper.SerializeHelper.WriteObjectToXML(".\\Replace.xml", lstReplaces);
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

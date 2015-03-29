@@ -81,7 +81,9 @@
     <Compile Include="ReplaceData.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Replace.txt">
+    <Content Include="Improve.txt">
+    </Content>
+    <Content Include="Replace.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

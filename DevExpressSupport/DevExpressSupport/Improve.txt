@@ -1,0 +1,3 @@
+﻿1. Next diff, Previous Diff
+2. Border for difference.
+3. Regular express change

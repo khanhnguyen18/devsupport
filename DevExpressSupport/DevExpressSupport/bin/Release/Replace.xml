@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfReplaceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ReplaceData>
+    <OldString>this.btnExit.DialogResult = DialogResult.Cancel;</OldString>
+    <NewString>this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;</NewString>
+    <Type>Replace</Type>
+  </ReplaceData>
+  <ReplaceData>
+    <OldString>this.btn_Exit.DialogResult = DialogResult.Cancel;</OldString>
+    <NewString>this.btn_Exit.DialogResult = System.Windows.Forms.DialogResult.Cancel;</NewString>
+    <Type>Replace</Type>
+  </ReplaceData>
+  <ReplaceData>
+    <OldString>base.AutoScaleMode = AutoScaleMode.Font;</OldString>
+    <NewString>base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;</NewString>
+    <Type>Replace</Type>
+  </ReplaceData>
+  <ReplaceData>
+    <OldString>icontainer_0</OldString>
+    <NewString>components</NewString>
+    <Type>Replace</Type>
+  </ReplaceData>
+  <ReplaceData>
+    <OldString>private IContainer components;</OldString>
+    <NewString>//private IContainer components;</NewString>
+    <Type>Replace</Type>
+  </ReplaceData>
+  <ReplaceData>
+    <OldString>base.FormBorderStyle = FormBorderStyle.FixedSingle;</OldString>
+    <NewString>base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;</NewString>
+    <Type>Replace</Type>
+  </ReplaceData>
+  <ReplaceData>
+    <OldString>base.FormBorderStyle = FormBorderStyle.FixedSingle;</OldString>
+    <NewString>base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;</NewString>
+    <Type>Replace</Type>
+  </ReplaceData>
+  <ReplaceData>
+    <OldString>BaseView</OldString>
+    <NewString>using DevExpress.XtraGrid.Views.Base;</NewString>
+    <Type>NameSpace</Type>
+  </ReplaceData>
+
+</ArrayOfReplaceData>
