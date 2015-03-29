@@ -183,7 +183,7 @@ namespace DevExpressSupport
         {
             GetFromClipBoard();
             Process();
-            //SetToClipBoard();
+            SetToClipboard();
         }
 
         //int i = 0;

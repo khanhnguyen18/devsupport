@@ -16,8 +16,8 @@
     <Type>Replace</Type>
   </ReplaceData>
   <ReplaceData>
-    <OldString>base.FormBorderStyle = FormBorderStyle.FixedSingle;</OldString>
-    <NewString>base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;</NewString>
+    <OldString>= FormBorderStyle</OldString>
+    <NewString>= System.Windows.Forms.FormBorderStyle</NewString>
     <Type>Replace</Type>
   </ReplaceData>
   <ReplaceData>
