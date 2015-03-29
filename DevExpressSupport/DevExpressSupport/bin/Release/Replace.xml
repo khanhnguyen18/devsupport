@@ -1,16 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfReplaceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ReplaceData>
-    <OldString>this.btnExit.DialogResult = DialogResult.Cancel;</OldString>
-    <NewString>this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;</NewString>
-    <Type>Replace</Type>
-  </ReplaceData>
-  <ReplaceData>
-    <OldString>this.btn_Exit.DialogResult = DialogResult.Cancel;</OldString>
-    <NewString>this.btn_Exit.DialogResult = System.Windows.Forms.DialogResult.Cancel;</NewString>
-    <Type>Replace</Type>
-  </ReplaceData>
-  <ReplaceData>
     <OldString>base.AutoScaleMode = AutoScaleMode.Font;</OldString>
     <NewString>base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;</NewString>
     <Type>Replace</Type>
@@ -40,5 +30,32 @@
     <NewString>using DevExpress.XtraGrid.Views.Base;</NewString>
     <Type>NameSpace</Type>
   </ReplaceData>
+  <ReplaceData>
+    <OldString>ComponentResourceManager manager =</OldString>
+    <NewString>manager =</NewString>
+    <Type>Replace</Type>
+  </ReplaceData>
+  <ReplaceData>
+    <OldString>ComponentResourceManager manager =</OldString>
+    <NewString>manager =</NewString>
+    <Type>Replace</Type>
+  </ReplaceData>
+
+  <ReplaceData>
+    <OldString>manager =</OldString>
+    <NewString>InitializeComponent</NewString>
+    <Type>Manager</Type>
+  </ReplaceData>
+
+  <ReplaceData>
+    <OldString>= DialogResult.Cancel;</OldString>
+    <NewString>= System.Windows.Forms.DialogResult.Cancel;</NewString>
+    <Type>Replace</Type>
+  </ReplaceData>
+  
+
+
+
+
 
 </ArrayOfReplaceData>
