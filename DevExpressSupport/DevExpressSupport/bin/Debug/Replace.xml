@@ -57,6 +57,14 @@
     <Type>Manager</Type>
   </ReplaceData>
 
+  <ReplaceData>
+    <OldString>this.btn_Reset.DialogResult = DialogResult.Cancel;</OldString>
+    <NewString>this.btn_Reset.DialogResult = System.Windows.Forms.DialogResult.Cancel;</NewString>
+    <Type>Replace</Type>
+  </ReplaceData>
+  
+
+
 
 
 
