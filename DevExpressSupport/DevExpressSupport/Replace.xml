@@ -40,5 +40,24 @@
     <NewString>using DevExpress.XtraGrid.Views.Base;</NewString>
     <Type>NameSpace</Type>
   </ReplaceData>
+  <ReplaceData>
+    <OldString>ComponentResourceManager manager =</OldString>
+    <NewString>manager =</NewString>
+    <Type>Replace</Type>
+  </ReplaceData>
+  <ReplaceData>
+    <OldString>ComponentResourceManager manager =</OldString>
+    <NewString>manager =</NewString>
+    <Type>Replace</Type>
+  </ReplaceData>
+
+  <ReplaceData>
+    <OldString>manager =</OldString>
+    <NewString>InitializeComponent</NewString>
+    <Type>Manager</Type>
+  </ReplaceData>
+
+
+
 
 </ArrayOfReplaceData>

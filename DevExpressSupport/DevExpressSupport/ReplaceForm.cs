@@ -120,6 +120,12 @@ namespace DevExpressSupport
                     if (content.IndexOf(rd.OldString) != -1)
                         content = content.Insert(0, rd.NewString + "\r\n");
                 }
+                else if (rd.Type == "Manager")
+                {
+                    if (content.IndexOf(rd.OldString) != -1)
+                        content = content.Replace("private void InitializeComponent()",
+                            "private ComponentResourceManager manager;\r\nprivate void InitializeComponent()");    
+                }
             }
 
             this.richEditControl2.Text = content;
@@ -136,7 +142,7 @@ namespace DevExpressSupport
                 {
                     DocumentRange range = document2.CreateRange(searchResult.CurrentResult.Start,
                         searchResult.CurrentResult.Length);
-                    document2.CreateBookmark(range, "bm" + searchResult.CurrentResult.Start.ToString());
+                    //document2.CreateBookmark(range, "bm" + searchResult.CurrentResult.Start.ToString());
                     CharacterProperties prop = document2.BeginUpdateCharacters(range);
                     prop.ForeColor = Color.Red;
                     document2.EndUpdateCharacters(prop);
