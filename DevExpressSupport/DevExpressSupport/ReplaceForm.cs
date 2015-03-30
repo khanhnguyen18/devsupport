@@ -117,14 +117,13 @@ namespace DevExpressSupport
                 }
                 else if (rd.Type == "NameSpace")
                 {
-                    if (content.IndexOf(rd.OldString) != -1)
+                    if (content.IndexOf(rd.OldString) != -1 && content.IndexOf(rd.NewString) == -1)
                         content = content.Insert(0, rd.NewString + "\r\n");
                 }
                 else if (rd.Type == "Manager")
                 {
                     if (content.IndexOf(rd.OldString) != -1 && content.IndexOf(rd.NewString) == -1)
-                        content = content.Replace("private void InitializeComponent()",
-                            "private ComponentResourceManager manager;\r\nprivate void InitializeComponent()");    
+                        content = content.Replace(rd.OldString, rd.NewString);    
                 }
             }
 
@@ -135,7 +134,11 @@ namespace DevExpressSupport
 
             foreach (ReplaceData rd in lstReplaces)
             {
-                ISearchResult searchResult = document2.StartSearch(rd.NewString);                
+                string searchString = rd.NewString;
+                if (rd.Type == "Manager")
+                    searchString = rd.OldString;
+
+                ISearchResult searchResult = document2.StartSearch(searchString);                
                 searchResult.FindNext();
 
                 if (searchResult.CurrentResult != null)
@@ -168,6 +171,8 @@ namespace DevExpressSupport
                     //    document1.CreateBookmark(range, "bm0");
                     //}
                 }
+
+               
 
 
             }

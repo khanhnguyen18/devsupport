@@ -27,9 +27,15 @@
   </ReplaceData>
 
   <ReplaceData>
-    <OldString>InitializeComponent</OldString>
-    <NewString>private ComponentResourceManager manager;</NewString>
+    <OldString>private void InitializeComponent()</OldString>
+    <NewString>private ComponentResourceManager manager;&#xD;&#xA;private void InitializeComponent()</NewString>
     <Type>Manager</Type>
+  </ReplaceData>
+
+  <ReplaceData>
+    <OldString>BaseView</OldString>
+    <NewString>using DevExpress.XtraGrid.Views.Base;</NewString>
+    <Type>NameSpace</Type>
   </ReplaceData>
 
   <ReplaceData>
