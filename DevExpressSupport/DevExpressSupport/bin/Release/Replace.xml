@@ -11,7 +11,7 @@
     <Type>Replace</Type>
   </ReplaceData>
   <ReplaceData>
-    <OldString>private IContainer components;</OldString>
+    <OldString>  private IContainer components;</OldString>
     <NewString>//private IContainer components;</NewString>
     <Type>Replace</Type>
   </ReplaceData>
@@ -21,29 +21,14 @@
     <Type>Replace</Type>
   </ReplaceData>
   <ReplaceData>
-    <OldString>base.FormBorderStyle = FormBorderStyle.FixedSingle;</OldString>
-    <NewString>base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;</NewString>
-    <Type>Replace</Type>
-  </ReplaceData>
-  <ReplaceData>
-    <OldString>BaseView</OldString>
-    <NewString>using DevExpress.XtraGrid.Views.Base;</NewString>
-    <Type>NameSpace</Type>
-  </ReplaceData>
-  <ReplaceData>
-    <OldString>ComponentResourceManager manager =</OldString>
-    <NewString>manager =</NewString>
-    <Type>Replace</Type>
-  </ReplaceData>
-  <ReplaceData>
     <OldString>ComponentResourceManager manager =</OldString>
     <NewString>manager =</NewString>
     <Type>Replace</Type>
   </ReplaceData>
 
   <ReplaceData>
-    <OldString>manager =</OldString>
-    <NewString>InitializeComponent</NewString>
+    <OldString>InitializeComponent</OldString>
+    <NewString>private ComponentResourceManager manager;</NewString>
     <Type>Manager</Type>
   </ReplaceData>
 

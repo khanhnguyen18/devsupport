@@ -29,6 +29,8 @@ namespace DevExpressSupport
         private void InitializeComponent()
         {
             this.layoutControl1 = new DevExpress.XtraLayout.LayoutControl();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnNextDiff = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.btnProcess = new DevExpress.XtraEditors.SimpleButton();
@@ -41,9 +43,7 @@ namespace DevExpressSupport
             this.splitterItem1 = new DevExpress.XtraLayout.SplitterItem();
             this.layoutControlItem4 = new DevExpress.XtraLayout.LayoutControlItem();
             this.layoutControlItem3 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.btnNextDiff = new DevExpress.XtraEditors.SimpleButton();
             this.layoutControlItem5 = new DevExpress.XtraLayout.LayoutControlItem();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.layoutControlItem6 = new DevExpress.XtraLayout.LayoutControlItem();
             this.emptySpaceItem1 = new DevExpress.XtraLayout.EmptySpaceItem();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControl1)).BeginInit();
@@ -77,6 +77,25 @@ namespace DevExpressSupport
             this.layoutControl1.Size = new System.Drawing.Size(888, 551);
             this.layoutControl1.TabIndex = 0;
             this.layoutControl1.Text = "layoutControl1";
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.Location = new System.Drawing.Point(346, 12);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(53, 22);
+            this.simpleButton2.StyleController = this.layoutControl1;
+            this.simpleButton2.TabIndex = 10;
+            this.simpleButton2.Text = "Previous";
+            // 
+            // btnNextDiff
+            // 
+            this.btnNextDiff.Location = new System.Drawing.Point(293, 12);
+            this.btnNextDiff.Name = "btnNextDiff";
+            this.btnNextDiff.Size = new System.Drawing.Size(49, 22);
+            this.btnNextDiff.StyleController = this.layoutControl1;
+            this.btnNextDiff.TabIndex = 9;
+            this.btnNextDiff.Text = "Next";
+            this.btnNextDiff.Click += new System.EventHandler(this.btnNextDiff_Click);
             // 
             // labelControl1
             // 
@@ -207,16 +226,6 @@ namespace DevExpressSupport
             this.layoutControlItem3.TextToControlDistance = 0;
             this.layoutControlItem3.TextVisible = false;
             // 
-            // btnNextDiff
-            // 
-            this.btnNextDiff.Location = new System.Drawing.Point(293, 12);
-            this.btnNextDiff.Name = "btnNextDiff";
-            this.btnNextDiff.Size = new System.Drawing.Size(49, 22);
-            this.btnNextDiff.StyleController = this.layoutControl1;
-            this.btnNextDiff.TabIndex = 9;
-            this.btnNextDiff.Text = "Next";
-            this.btnNextDiff.Click += new System.EventHandler(this.btnNextDiff_Click);
-            // 
             // layoutControlItem5
             // 
             this.layoutControlItem5.Control = this.btnNextDiff;
@@ -231,15 +240,6 @@ namespace DevExpressSupport
             this.layoutControlItem5.TextSize = new System.Drawing.Size(0, 0);
             this.layoutControlItem5.TextToControlDistance = 0;
             this.layoutControlItem5.TextVisible = false;
-            // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Location = new System.Drawing.Point(346, 12);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(53, 22);
-            this.simpleButton2.StyleController = this.layoutControl1;
-            this.simpleButton2.TabIndex = 10;
-            this.simpleButton2.Text = "Previous";
             // 
             // layoutControlItem6
             // 

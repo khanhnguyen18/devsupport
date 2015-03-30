@@ -122,7 +122,7 @@ namespace DevExpressSupport
                 }
                 else if (rd.Type == "Manager")
                 {
-                    if (content.IndexOf(rd.OldString) != -1)
+                    if (content.IndexOf(rd.OldString) != -1 && content.IndexOf(rd.NewString) == -1)
                         content = content.Replace("private void InitializeComponent()",
                             "private ComponentResourceManager manager;\r\nprivate void InitializeComponent()");    
                 }
